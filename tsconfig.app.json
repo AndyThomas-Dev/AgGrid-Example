@@ -3,6 +3,9 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
+
+    // Gets rid of type enforcement
+    "strictPropertyInitialization": false,
     "types": []
   },
   "files": [
